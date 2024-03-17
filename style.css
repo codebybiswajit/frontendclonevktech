@@ -308,3 +308,20 @@ textarea::placeholder{
 span{
   padding-right:10px;
 }
+
+@media only screen and (max-width: 500px) {
+  .home{
+  font-size: 10px;
+  }
+  .logo{
+    width: 50vh;
+  }
+  .flex{
+    margin-top: 5px;
+    display: block;
+    font-size: small;
+  }
+  .row {
+    grid-template-columns: 1fr;
+}
+}
